@@ -1,14 +1,14 @@
 # a. Program to add two numbers
+
+
 def sum(a, b):
     return a + b
 
 
 # b. Maximum of two numbers
-def max(a, b):
-    if a > b:
-        return a
-    else:
-        return b
+def myMax(a, b):
+    # return a if a > b else b
+    return max(a, b)
 
 
 # c. Program for factorial of a number
@@ -34,7 +34,7 @@ def armstrong(n):
 # a
 print(sum(1, 2))
 # b
-print(max(1, 2))
+print(myMax(1, 2))
 # c
 print(factorial(5))
 # d

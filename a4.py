@@ -102,4 +102,5 @@ b = [
     [-4, -2, 11, 4]
 ]
 r = substractMatrices(a, b)
+print("Substract of matrices")
 print(r)
